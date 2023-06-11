@@ -1,0 +1,100 @@
+* {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    justify-content: center;
+}
+
+
+
+h1,h2,h3,h4,h5,h6, title {
+    font-family: 'Gugi', regular;
+}
+
+p, a {
+    font: 18px 'Gowun Dodum', regular;
+}
+
+/* .nav {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    display: inline;
+    width: 20%;
+   
+    background-color: #333;
+    overflow: hidden;
+ }
+
+ .dropdown {
+    float: right;
+    overflow: hidden;
+ } */
+
+
+ 
+/*
+    ___HEADER
+    ____________NAVBAR*/
+  .navbar{
+        background-color: #ffffff;
+        color: #DCC1FE;    
+    }
+   
+    .nav-item {
+        display: flex;
+        justify-content: end;
+    }
+    .navlink, a {
+        text-shadow: 5px 9px 11px rgba(220, 193, 254, 0.35);
+
+    }
+    
+    .navbar ul li a {
+        color: #DCC1FE;
+        margin: 0 35px;
+        font-size: 16px;
+        justify-content: end;
+    }
+    
+    .navbar .nav-link:hover, .nav-link .dropdown-toggle{
+        font-weight: bold;
+    }
+    
+    .container_modal .btn-close{
+        background-color:#ffffff;
+    }
+    
+    /* PAGE CONTENT */
+    /* introduction */
+    .name {
+        color: #8360CB;
+       align-items: center;
+        margin-left: 400px;
+    }
+
+.firstname {
+    margin-bottom: 150px;
+    margin-left: 25px;
+    font-size:  80px;
+}
+ 
+.lastname {
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 63px;
+    font-size:  80px;
+}
+
+.student {
+    color: #DCC1FE;
+    position: absolute;
+    margin-top: 218px;
+    margin-left: 111px;
+    font-size:  30px;
+}
+  
